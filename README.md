@@ -1,81 +1,74 @@
 
-# 📊 HR Analytics Dashboard | Power BI
+# HR Analytics Dashboard | Power BI
 
-An interactive HR Analytics Dashboard developed using Microsoft Power BI to analyze employee attrition, workforce demographics, job satisfaction, and departmental performance.
+An interactive HR Analytics Dashboard built using **Microsoft Power BI** to analyze employee attrition, workforce demographics, job satisfaction, and HR trends through data-driven visualizations.
 
-## 📌 Project Overview
+## Project Overview
 
-This project focuses on transforming HR data into meaningful insights through interactive visualizations and KPI analysis. The dashboard enables users to explore workforce trends, identify attrition patterns, and understand employee demographics.
+This project analyzes HR data containing **1,470 employee records** to understand workforce composition and identify patterns associated with employee attrition. The dashboard presents key metrics and interactive visualizations to support HR analysis and decision-making.
 
-## 🎯 Objectives
+## Project Links
 
-- Analyze employee attrition and attrition rate.
-- Understand workforce distribution across departments.
-- Evaluate employee demographics by age and gender.
-- Analyze job satisfaction across different job roles.
-- Identify education fields associated with employee attrition.
-- Support data-driven HR decision-making.
+- **Live Power BI Dashboard:** [Open Dashboard](https://app.powerbi.com/reportEmbed?reportId=5dd30b20-89dd-429f-ba31-39477868c780&autoAuth=true&ctid=c7b00d7f-ad99-442a-b12f-c2c912044fdc&actionBarEnabled=true)
+- **GitHub Repository:** [HR Analytics Dashboard](https://github.com/devanshsoni1094-lang/HR-Analytics-Dashboard)
 
-## 📈 Dashboard Features
+> **Note:** The Power BI dashboard may require Microsoft sign-in and report access permissions.
 
-- **Overall Workforce KPIs:** Employee count, attrition count, attrition rate, average age.
-- **Department-wise Attrition:** Attrition distribution across departments.
-- **Age Group Analysis:** Employee distribution across age groups and gender.
-- **Job Satisfaction Analysis:** Satisfaction ratings across job roles.
-- **Education Field Analysis:** Attrition patterns by education field.
-- **Interactive Filters:** Education-based slicers for dynamic analysis.
+## Dashboard Highlights
 
-## 🛠️ Tools & Technologies
+- Employee count and attrition KPIs
+- Attrition analysis by age group
+- Department-wise and job-role-wise attrition
+- Workforce demographics
+- Job satisfaction analysis
+- Overtime and attrition patterns
+- Interactive filters and visual exploration
 
-- Microsoft Power BI
-- DAX
-- Data Visualization
-- HR Analytics
-- Data Analysis
+## Key Metrics
 
-## 📊 Key Insights
+| Metric | Value |
+|---|---:|
+| Total Employees | 1,470 |
+| Attrition Count | 237 |
+| Attrition Rate | 16.12% |
+| Average Employee Age | Approximately 37 years |
 
-- Total employees: 1.47K
-- Employee attrition: 237
-- Overall attrition rate: 16.12%
-- Average employee age: 37 years
-- Research & Development accounts for the highest department-wise attrition count.
+## Tools & Technologies
 
-## 🖼️ Dashboard Preview
+- **Microsoft Power BI** – Dashboard development and data visualization
+- **Microsoft Excel** – Dataset
 
-![HR Analytics Dashboard](screenshots/dashboard.png)
+## Repository Structure
 
-## 🔗 Live Dashboard
-
-[View Interactive Power BI Dashboard](https://app.powerbi.com/links/cLugw4z3sI?ctid=c7b00d7f-ad99-442a-b12f-c2c912044fdc&pbi_source=linkShare)
-
-## 📂 Repository Structure
-
-HR-Analytics-PowerBI-Dashboard/
-
+```text
+HR-Analytics-Dashboard/
 ├── README.md
+├── Dataset/
+│   └── HR Data.xlsx
+├── Screenshots/
+│   └── Dashboard previews
+└── Project Report.pdf
+```
 
-├── HR_Analytics_Dashboard.pbix
+## Key Insights
 
-├── HR_Analytics_Project_Report.docx
+- Employees under 25 show a higher attrition rate than older age groups.
+- Sales Representatives have a comparatively high attrition rate.
+- Sales has the highest departmental attrition rate.
+- Employees working overtime show higher attrition than employees not working overtime.
+- Attrition patterns vary across job satisfaction ratings and employee demographics.
 
-└── screenshots/
+*These observations describe patterns in the dataset and should not be interpreted as proof of causation.*
 
-    └── dashboard.png
+## Project Objective
 
-## 🚀 Learning Outcomes
+The objective is to demonstrate how HR data can be explored and communicated through an interactive dashboard, helping stakeholders identify workforce trends and areas that may require further investigation.
 
-- Building interactive dashboards using Power BI.
-- Creating analytical KPIs and measures.
-- Exploring HR datasets through data visualization.
-- Developing business insights from workforce data.
-- Designing dashboards for business intelligence applications.
+## Author
 
-## 👨‍💻 Author
-
-**Devansh Soni**
-
-Data Analytics | Power BI | SQL | Python
+**Devansh Soni**  
+Aspiring Data Analyst | Power BI | Excel
 
 ---
-⭐ If you find this project useful, consider giving it a star!
+
+If you find this project useful, feel free to explore the dashboard and repository.
